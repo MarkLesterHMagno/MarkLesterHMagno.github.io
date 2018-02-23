@@ -18,6 +18,9 @@ sticky {
   top: 0;
   width: 100%;
 }
+sticky + body {
+  padding-top: 102px;
+}
 footer {
     position: fixed;
     left: 0;
