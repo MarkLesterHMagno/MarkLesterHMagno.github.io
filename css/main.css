@@ -13,6 +13,11 @@ nav ul li {
     margin-right: 20px;
 
 }
+sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 footer {
     position: fixed;
     left: 0;
