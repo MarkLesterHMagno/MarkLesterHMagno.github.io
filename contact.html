@@ -37,14 +37,33 @@
 	<form method="post" action="">
         <label for="name1">Name:</label>
         <div>
-          <input type="text" class="formcls" name="postname" placeholder="Name">
+          <input type="text" class="formcls" name="postname" placeholder="Enter Your Full Name">
         </div>
 
-      
 
-       <label for="comment1" >Comment</label>
+        <label for="gender1">Gender:</label>
         <div>
-          <input type="text" class="formcls" name="postcomment" placeholder="Comment>
+        <select class="formcls" name="postgender">
+          <option>Male</option>
+          <option>Female</option>
+        </select>          
+      </div>      
+
+        <label for="email1">Email:</label>
+        <div>
+          <input type="email" class="formcls" name="postemail" placeholder="Enter Email">
+        </div>
+
+
+        <label for="password1">Password:</label>
+        <div>
+          <input type="password" class="formcls" name="postpassword" placeholder="Password here">
+        </div>
+
+
+        <label for="address1" >Address:</label>
+        <div>
+          <input type="text" class="formcls" name="postaddress" placeholder="Full Address">
         </div>
             
          <div>
@@ -52,18 +71,23 @@
         </div>
     </form>
    </div> 
-<?php
+< ?php
 $post_name=$_POST["postname"];
-$post_address=$_POST["postcomment"];
+$post_gender=$_POST["postgender"];
+$post_email=$_POST["postemail"];
+$post_password=$_POST["postpassword"];
+$post_address=$_POST["postaddress"];
 
  
 if( $post_name )
  
 {
  
-   echo "". $post_name ."<br>";
-  
-   echo "Comment:" .$post_comment ."<br>";
+   echo "Name entered is: ". $post_name ."<br>";
+   echo "Gender:" .$post_gender ."<br>";
+   echo "Email:" .$post_email ."<br>";
+   echo "Password:" .$post_password ."<br>";
+   echo "Address:" .$post_address ."<br>";
 
  
 }
