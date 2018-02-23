@@ -20,7 +20,30 @@ p {
 		</div>
 		<nav>
     		<ul>
-	
+	<div id="Home" class="tabcontent">
+  <h3>London</h3>
+  <p>Welcome</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Something about myself.</p> 
+</div>
+
+<div id="CV" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>School, Work and Skills.</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Oslo</h3>
+  <p>Contact Me.</p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">About</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">CV</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Contact Me</button>
         		<li><a href="index.html">Home</a></li>
 	        	<li><a href="about.html">About</a></li>
         		<li><a href="cv.html">CV</a></li>
