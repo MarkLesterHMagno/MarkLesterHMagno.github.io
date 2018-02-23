@@ -13,14 +13,16 @@ nav ul li {
     margin-right: 20px;
 
 }
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
+footer {
     position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
 }
+
 
 a {
     text-decoration: none;
