@@ -30,7 +30,8 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    background-color: blue;
+    background-color: gray;
+    color: white;
 }
 h1 {
     font-size: 2em;
