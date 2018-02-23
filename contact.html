@@ -34,6 +34,40 @@
 					Facebook: <a href ="https://www.facebook.com/mark.l.magno"> https://www.facebook.com/mark.l.magno</a>
 					  </fieldset>
 					
+	<form method="post" action="">
+        <label for="name1">Name:</label>
+        <div>
+          <input type="text" class="formcls" name="postname" placeholder="Name">
+        </div>
+
+      
+
+       <label for="comment1" >Comment</label>
+        <div>
+          <input type="text" class="formcls" name="postcomment" placeholder="Comment>
+        </div>
+            
+         <div>
+          <p><input type="submit" class="formcls" value="Submit"></p>
+        </div>
+    </form>
+   </div> 
+< ?php
+$post_name=$_POST["postname"];
+$post_address=$_POST["postcomment"];
+
+ 
+if( $post_name )
+ 
+{
+ 
+   echo "". $post_name ."<br>";
+  
+   echo "Comment:" .$post_comment ."<br>";
+
+ 
+}
+?>
 
 </div>
 	  
