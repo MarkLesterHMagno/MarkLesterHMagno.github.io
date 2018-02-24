@@ -12,12 +12,9 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    background-color:black;
-    color: white;
-    width:25%;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
+   
+    color: black;
+   
 
 }
 tablink:hover {
@@ -47,7 +44,11 @@ footer {
     text-align: center;
 }
 
-
+a {
+    text-decoration: none;
+    color:  #000000;
+    
+}
 a:hover {
     text-decoration: underline;
     background-color: gray;
