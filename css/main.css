@@ -12,7 +12,9 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    background-color:green;
+    background-color:black;
+    color: white;
+    width:25%;
 }
 tablink:hover {
     background-color: gray;
