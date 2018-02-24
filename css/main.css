@@ -16,9 +16,10 @@ nav ul li {
 }
 
 legend{
-    padding: 0;
+
     margin-left: 10px;
-    
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid black;
     display: block;
     width: auto;
