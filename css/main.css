@@ -42,7 +42,7 @@ p {
     color: #000000;
 
 }
-fieldset legend{
+legend{
     display: block;
     color: blue;
 }
