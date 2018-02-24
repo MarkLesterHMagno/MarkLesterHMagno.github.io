@@ -16,6 +16,7 @@ nav ul li {
 legend{
     padding: 0;
     margin-left: 40px;
+    margin-right: 40px;
     border: 1px solid black;
     display: block;
     width: auto;
