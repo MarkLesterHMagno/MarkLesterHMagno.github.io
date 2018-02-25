@@ -21,15 +21,7 @@ tablink:hover {
     background-color: gray;
 }
 
-div1 {
-    border-bottom: 4px solid gray;
-    border-top: 4px solid gray;
-    border-right: 4px solid gray;
-    border-left: 4px solid gray;
-    background-color: white;
-    width: 35%;
-    
-}
+
 legend{
 
     margin-left: 10px;
