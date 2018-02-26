@@ -65,6 +65,11 @@ a:hover {
     background-color: gray;
     color: white;
 }
+nav a.active {
+    text-decoration: underline;
+    background-color:lightblue;
+    color: black;
+}
 h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
