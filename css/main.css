@@ -31,7 +31,10 @@ nav a {
 tablink:hover {
     background-color: gray;
 }
-
+fieldset{
+ border-radius: 20px;
+  border: 5px solid gray;
+ }
 
 legend{
 
