@@ -2,6 +2,9 @@ body {
     margin: 60px auto;
     width: 70%;
     text-align: justify;
+    height:100px;
+    white-space:nowrap;
+  overflow: auto;
 }
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
