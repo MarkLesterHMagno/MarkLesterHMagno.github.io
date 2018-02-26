@@ -87,12 +87,15 @@ form {
 } 
 
 
-form  input, 
-form textarea { 
+form legend table input, 
+form legend table textarea { 
   margin: 30px; 
-  padding: 0; 
-  display: block; 
-  font-size: 100%; 
+  padding: 12px; 
+   display: block;
+  font-size: 100%;
+  float: right;
+ 
+  
 } 
 
 input[type=submit] {
