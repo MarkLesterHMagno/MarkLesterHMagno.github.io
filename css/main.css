@@ -5,7 +5,7 @@ body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4mJnBaabELIWua8KGe6zF79M14CcdmdCb9KigDv-23UEF6vLrw")
  }
  nav  {
- 
+    display: inline;
     margin-right:10px;
 
     padding: 18px 15px;
