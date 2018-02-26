@@ -77,4 +77,7 @@ form textarea {
   display: block; 
   font-size: 100%; 
 } 
+fieldset{
+     border-radius: 4px;
+}
 
