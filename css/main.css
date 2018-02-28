@@ -1,6 +1,6 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 20px auto;
+    width: 90%;
     text-align: justify;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4mJnBaabELIWua8KGe6zF79M14CcdmdCb9KigDv-23UEF6vLrw")
  }
@@ -52,6 +52,7 @@ legend{
 }
 footer {
     position: fixed;
+  margin: 0;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -71,7 +72,7 @@ a:hover {
 }
 nav a.active {
     text-decoration: underline;
-    background-color:lightblue;
+    background-color:#CB4335;
     color: black;
 }
 h1 {
