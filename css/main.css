@@ -198,3 +198,6 @@ article {
     padding: 1em;
     overflow: hidden;
 }
+table img{
+ border-radius:50%;
+ }
